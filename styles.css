@@ -1,0 +1,31 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+    padding: 0;
+    margin: auto;
+}
+
+.post {
+    min-height: 600px;
+    width: 452px;
+    border: solid 1px black;
+}
+
+.post-header, .post-photo, .post-bottom {
+    width: 100%;
+}
+
+.post-header > p, .post-header > h1 {
+    margin-bottom: 0;
+}
+
+.post-bottom-buttons {
+    padding-bottom: 1rem;
+}
+
+.post-bottom-text, .post-bottom-likedby {
+    font-size: 13px;
+}
